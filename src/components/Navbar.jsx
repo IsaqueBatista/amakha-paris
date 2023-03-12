@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import NavLogo from "../../public/assets/logo-1.png";
+import NavLogo from "../../public/assets/Navbar/logo-1.png";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 export default function Navbar() {
@@ -82,7 +82,7 @@ export default function Navbar() {
             className={
               nav
                 ? "md:hidden fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-slate-900 p-10 ease-in duration-500"
-                : "fixed left-[-100%] h-screen top-0 p-10 ease-in duration-700"
+                : "fixed left-[-400%] h-screen top-0 p-10 ease-in duration-700"
             }
           >
             <div>
