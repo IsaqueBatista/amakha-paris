@@ -28,31 +28,31 @@ export default function Navbar() {
           <div className="mr-5 ml-2">
             <ul className="hidden md:flex gap-2 text-[#ffffff] items-center">
               <Link href="#about">
-                <li className="ml-4 mr-4 text-sm uppercase hover:border-b">
+                <li className="mr-3 text-sm uppercase hover:border-b">
                   Sobre
                 </li>
               </Link>
 
               <Link href="#produtos">
-                <li className="ml-4 mr-4 text-sm uppercase hover:border-b">
+                <li className="ml-3 mr-3 text-sm uppercase hover:border-b">
                   Produtos
                 </li>
               </Link>
 
               <Link href="#catálogo">
-                <li className="ml-4 mr-4 text-sm uppercase hover:border-b">
+                <li className="ml-3 mr-3 text-sm uppercase hover:border-b">
                   Catálogo
                 </li>
               </Link>
 
               <Link href="#depoimentos">
-                <li className="ml-4 mr-4 text-sm uppercase hover:border-b">
+                <li className="ml-3 mr-3 text-sm uppercase hover:border-b">
                   Depoimentos
                 </li>
               </Link>
 
               <Link href="#contato">
-                <li className="ml-4 mr-4 text-sm uppercase hover:border-b">
+                <li className="ml-3 mr-3 text-sm uppercase hover:border-b">
                   Contato
                 </li>
               </Link>
@@ -61,9 +61,9 @@ export default function Navbar() {
                 target={"_blank"}
                 href="https://escritorio.amakhaparis.com.br/join/102869"
               >
-                <li className="ml-3 mr-3 p-1 text-sm uppercase rounded-sm
+                <li className="ml-3  p-1 px-3 text-sm uppercase rounded-sm
                 bg-orange-500 hover:bg-[#FC8A01] hover:text-[black]">
-                  Cadastre-se
+                  Cadastro
                 </li>
               </Link>
             </ul>
