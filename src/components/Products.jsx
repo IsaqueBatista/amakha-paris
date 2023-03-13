@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Perfume from "../../public/assets/Produtos/perfumes.png";
 
-const Perfumary = () => {
+const Products = () => {
   return (
     <div className="m-auto p-10 pb-5 flex justify-center bg-gradient-to-t from-gray-400 to-gray-300">
       <div className="p-2 items-center md:flex gap-2 bg-gradient-to-t from-gray-500 via-gray-400 to-gray-200 rounded-md">
@@ -31,4 +31,4 @@ const Perfumary = () => {
   );
 };
 
-export default Perfumary;
+export default Products;

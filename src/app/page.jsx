@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
 import CallBanner from "../components/CallBanner";
-import Perfumary from "../components/Perfumary";
+import Products from "../components/Products";
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
       <Navbar />
       <About />
       <CallBanner />
-      <Perfumary />
+      <Products />
     </div>
   );
 }
