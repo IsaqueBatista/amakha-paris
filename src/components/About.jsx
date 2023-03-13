@@ -18,7 +18,6 @@ const About = () => {
         <div className="flex md:flex items-center gap-10 justify-center">
           <div></div>
           <Image
-            // className="m-auto"
             src={Pa}
             width="200"
             height="180"
