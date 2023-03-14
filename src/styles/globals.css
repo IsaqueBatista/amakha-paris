@@ -35,6 +35,18 @@
     h3 {
       @apply text-2xl sm:text-3xl;
     }
+
+    h4 {
+      @apply text-xl sm:text-2xl;
+    }
+
+    h5 {
+      @apply text-lg sm:text-xl;
+    }
+
+    h6 {
+      @apply text-base sm:text-lg;
+    }
   
     li {
       @apply cursor-pointer;
