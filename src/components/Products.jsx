@@ -36,7 +36,9 @@ const Products = () => {
 
       <div className="w-full pb-20 bg-gradient-to-t from-gray-100 via-gray-200 to-gray-400">
         <div className="max-w-[1240px] mx-auto px-2">
-          <h3 className="text-center"> Veja <strong className="text-slate-900">também</strong></h3>
+          <h3 className="text-center">
+            Veja <strong className="text-slate-900">também</strong>
+          </h3>
           <div className="grid md:grid-cols-4 md:gap-1">
             <div className="flex items-center flex-col justify-center h-auto w-full bg-gradient-to-t from-gray-100 via-gray-200 to-gray-400 shadow-lg shadow-gray-400 rounded-md group mt-20">
               <Image
@@ -56,11 +58,11 @@ const Products = () => {
                 src={Nutraceuticos}
                 width="220"
                 height="300"
-                alt="Linha capilar"
+                alt="Linha nutricional"
               />
               <h6 className="uppercase tracking-tight">Nutracêuticos</h6>
               <p className="text-center mx-10 pt-6 pb-5">
-                Amplo portfólio para o uso diário e em salões de beleza
+                Esteja em dia com a sua saúde, desempenho físico e mental
               </p>
             </div>
 
@@ -69,11 +71,11 @@ const Products = () => {
                 src={Hidratantes}
                 width="220"
                 height="300"
-                alt="Linha capilar"
+                alt="Hidratantes"
               />
               <h6 className="uppercase tracking-tight">Hidratantes</h6>
               <p className="text-center mx-10 pt-6 pb-5">
-                Amplo portfólio para o uso diário e em salões de beleza
+                Hidratação e suavidade para todos os tipos de pele
               </p>
             </div>
 
@@ -82,11 +84,12 @@ const Products = () => {
                 src={Infantil}
                 width="220"
                 height="300"
-                alt="Linha capilar"
+                alt="Linha infantil"
               />
               <h6 className="uppercase tracking-tight">Magic Candy</h6>
               <p className="text-center mx-10 pt-6 pb-5">
-                Amplo portfólio para o uso diário e em salões de beleza
+                Deixe a hora do banho cheirosinha com a linha mais divertida da
+                Amakha Paris
               </p>
             </div>
           </div>
