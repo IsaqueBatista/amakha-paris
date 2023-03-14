@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import Perfume from "../../public/assets/Produtos/perfumes.png";
-import Capilar from "../../public/assets/Produtos/capilar.png";
-import Nutraceuticos from "../../public/assets/Produtos/nutraceuticos.png";
-import Hidratantes from "../../public/assets/Produtos/hidratantes.png";
-import Infantil from "../../public/assets/Produtos/infantil.png";
+import Perfume from "../../public/assets/Products/perfumes.png";
+import Capilar from "../../public/assets/Products/capilar.png";
+import Nutraceuticos from "../../public/assets/Products/nutraceuticos.png";
+import Hidratantes from "../../public/assets/Products/hidratantes.png";
+import Infantil from "../../public/assets/Products/infantil.png";
 
 const Products = () => {
   return (
@@ -34,7 +34,7 @@ const Products = () => {
         </div>
       </div>
 
-      <div className="w-full pb-20 bg-gradient-to-t from-gray-100 via-gray-200 to-gray-400">
+      <div className="w-full pb-10 bg-gradient-to-t from-gray-100 via-gray-200 to-gray-400">
         <div className="max-w-[1240px] mx-auto px-2">
           <h3 className="text-center">
             Veja <strong className="text-slate-900">também</strong>
