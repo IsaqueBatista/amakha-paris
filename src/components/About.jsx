@@ -18,7 +18,7 @@ const About = () => {
           </div>
           <div className="flex justify-center mt-5">
             <iframe
-            className="shadow-md shadow-gray-300 rounded-md"
+              className="border-solid border-2 border-black"
               width="560"
               height="315"
               src="https://www.youtube-nocookie.com/embed/YzQ_eZx_KM4"
