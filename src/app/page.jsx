@@ -5,6 +5,7 @@ import CallBanner from "../components/CallBanner";
 import Products from "../components/Products";
 import Catalog from "../components/Catalog";
 import Depositions from "../components/Depositions"
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -14,7 +15,9 @@ export default function Home() {
       <CallBanner />
       <Products />
       <Catalog />
+      <CallBanner />
       <Depositions />
+      <Contact />
     </div>
   );
 }
