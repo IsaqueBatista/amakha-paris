@@ -17,6 +17,7 @@ export default function Home() {
       <Catalog />
       <CallBanner />
       <Depositions />
+      <CallBanner />
       <Contact />
     </div>
   );
