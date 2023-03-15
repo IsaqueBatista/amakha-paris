@@ -4,6 +4,7 @@ import About from "../components/About";
 import CallBanner from "../components/CallBanner";
 import Products from "../components/Products";
 import Catalog from "../components/Catalog";
+import Depositions from "../components/Depositions"
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <CallBanner />
       <Products />
       <Catalog />
+      <Depositions />
     </div>
   );
 }
