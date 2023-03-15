@@ -15,11 +15,11 @@ const Contact = () => {
             height="auto"
             alt="Logo Amakha Paris"
           />
-          <div className="mt-5 uppercase tracking-tight">
+          <div className="my-5 uppercase tracking-tight">
             <h5>Isaque Batista de Oliveira</h5>
           </div>
 
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4 gap-3">
+          <div className="flex items-center justify-between max-w-[330px] m-auto py-4 pt-1 gap-3">
             {/*  */}
 
             <a
