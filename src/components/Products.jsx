@@ -8,7 +8,7 @@ import Infantil from "../../public/assets/Products/infantil.png";
 
 const Products = () => {
   return (
-    <>
+    <div id="products">
       <div className="m-auto p-10 pb-5 flex justify-center bg-gradient-to-t from-gray-400 to-gray-300">
         <div className="p-2 items-center md:flex gap-2 bg-gradient-to-t from-gray-400 via-gray-400 to-gray-200  rounded-md">
           <div className="xl:ml-10">
@@ -95,7 +95,7 @@ const Products = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
