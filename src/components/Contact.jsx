@@ -75,7 +75,7 @@ const Contact = () => {
         </div>
 
         <div className="text-center items-center">
-          <p className="my-1 text-lg flex justify-center items-center gap-1"><FaWhatsapp />(34) 99222-5485</p>
+          <p className="my-1 flex justify-center items-center gap-1"><FaWhatsapp />(34) 99222-5485</p>
           <p className="flex justify-center items-center gap-1"><AiOutlineMail />isaquebatista1716@gmail.com</p>
         </div>
       </div>
