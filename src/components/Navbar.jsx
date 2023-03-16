@@ -3,7 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import NavLogo from "../../public/assets/Navbar/logo-1.png";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
+import { FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 export default function Navbar() {
   const [nav, setNav] = useState(false);
@@ -33,7 +34,7 @@ export default function Navbar() {
       }
     >
       <div className="flex justify-between items-center w-full h-full p-2 2xl:px-16 bg-black">
-        <Link href="/">
+        <a href="#about">
           <Image
             className="p-1"
             src={NavLogo}
@@ -41,10 +42,10 @@ export default function Navbar() {
             width="130"
             height="80"
           />
-        </Link>
+        </a>
 
-        <div className="mr-5 ml-2">
-          <ul className="hidden md:flex gap-2 text-[#ffffff] items-center">
+        <div className="flex mr-3 ml-2">
+          <ul className="hidden md:flex gap-1 text-[#ffffff] items-center">
             <a href="#about">
               <li className="mr-3 text-sm uppercase hover:border-b">Sobre</li>
             </a>
@@ -108,14 +109,14 @@ export default function Navbar() {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Link href="/">
+              <a href="#about">
                 <Image
                   src={NavLogo}
                   width="100"
                   height="80"
                   alt="Logo Amakha Paris"
                 />
-              </Link>
+              </a>
               <div
                 onClick={handleNav}
                 className="text-white cursor-pointer p-2"
@@ -123,7 +124,7 @@ export default function Navbar() {
                 <AiOutlineClose />
               </div>
             </div>
-            <div className="border-b border-t border-gray-800 text-center my-4 mt-5 flex justify-center text-white">
+            <div className="border-b border-t border-gray-800 text-center my-4 mt-8 flex justify-center text-white">
               <p className="w-[85%] md:w-[90%]">
                 Amakha Paris, lugar de gente feliz!
               </p>
@@ -160,6 +161,66 @@ export default function Navbar() {
               </Link>
             </ul>
           </div>
+
+          <div className="text-zinc-200 flex justify-center">
+            <p className="mb-4">Entre em contato:</p>
+          </div>
+
+          <div className="flex items-center justify-center max-w-[330px] m-auto py-4 pt-1 gap-3">
+          {/*  */}
+
+          <a
+            href="https://api.whatsapp.com/send?phone=5534992225485&text=Ol%C3%A1%2C%20meu%20nome%20%C3%A9%20Isaque%2C%20seja%20bem-vindo!"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div
+              className="bg-white rounded-full shadow-md shadow-gray-600 p-3 cursor-pointer 
+                hover:scale-105 ease-in duration-300"
+            >
+              <FaWhatsapp />
+            </div>
+          </a>
+
+          <a
+            href="https://www.instagram.com/amakha_paris_amakha/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div
+              className="bg-white rounded-full shadow-md shadow-gray-600 p-3 cursor-pointer 
+                hover:scale-105 ease-in duration-300"
+            >
+              <FaInstagram />
+            </div>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/isaque-batista-oliveira-50432024a/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div
+              className="bg-white rounded-full shadow-md shadow-gray-600 p-3 cursor-pointer 
+                hover:scale-105 ease-in duration-300"
+            >
+              <FaLinkedinIn />
+            </div>
+          </a>
+
+          <a
+            href="mailto:isaquebatista1716@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div
+              className="bg-white rounded-full shadow-md shadow-gray-600 p-3 cursor-pointer 
+                hover:scale-105 ease-in duration-300"
+            >
+              <AiOutlineMail />
+            </div>
+          </a>
+        </div>
         </div>
       </div>
     </div>
