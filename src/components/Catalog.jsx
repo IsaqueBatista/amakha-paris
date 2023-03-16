@@ -10,7 +10,7 @@ const Catalog = () => {
       </div>
 
       <div className="flex justify-center px-1 pb-10 bg-gradient-to-t from-zinc-900 via-gray-600 to-zinc-900">
-        <a download type="application/pdf" href="./assets/Catalogo-AMAKHA.pdf">
+        <a href="../../public/assets/Catalogo_AMAKHA.pdf" type="application/pdf" download >
           <Image
             className="rounded-sm border-solid border-2 border-black cursor-pointer"
             src={CatalogImg}
