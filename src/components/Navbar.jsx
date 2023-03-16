@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import NavLogo from "../../public/assets/Navbar/logo-1.png";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/Ai";
-import { FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/Fa";
+import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
+import { FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 export default function Navbar() {
   const [nav, setNav] = useState(false);
