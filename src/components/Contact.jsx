@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import Logo2 from "../../public/assets/Contact/logo2.png";
-import { AiOutlineMail } from "react-icons/ai";
-import { FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/Ai";
+import { FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/Fa";
 
 const Contact = () => {
   return (
