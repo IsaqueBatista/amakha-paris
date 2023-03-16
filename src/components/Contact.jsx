@@ -6,7 +6,7 @@ import { FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="w-full my-10 flex items-center pb-10 bg-gradient-to-t from-gray-100 via-gray-200 to-gray-100">
+    <div className="w-full my-10 flex items-center bg-gradient-to-t from-gray-100 via-gray-200 to-gray-100">
       <div id="contact" className="flex flex-col items-center w-full">
         <Image src={Logo2} width="auto" height="auto" alt="Logo Amakha Paris" />
         <div className="my-5 uppercase tracking-tight">
@@ -19,11 +19,10 @@ const Contact = () => {
           </p>
         </div>
 
-          {/*  */}
+        {/*  */}
         <div className="flex items-center justify-between max-w-[330px] m-auto py-4 pt-1 gap-3">
-
           <a
-            href="https://api.whatsapp.com/send?phone=5534992225485&text=Ol%C3%A1%2C%20meu%20nome%20%C3%A9%20Isaque%2C%20seja%20bem-vindo!"
+            href="https://wa.me/5534992225485?text=Oi%20Isaque,%20eu%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Amakha%20Paris."
             target="_blank"
             rel="noreferrer"
           >
@@ -76,8 +75,8 @@ const Contact = () => {
         </div>
 
         <div className="text-center items-center">
-          <p className="my-1">isaquebatista1716@gmail.com</p>
-          <p>(34) 99222-5485</p>
+          <p className="my-1 text-lg flex justify-center items-center gap-1"><FaWhatsapp />(34) 99222-5485</p>
+          <p className="flex justify-center items-center gap-1"><AiOutlineMail />isaquebatista1716@gmail.com</p>
         </div>
       </div>
     </div>

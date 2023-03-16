@@ -170,7 +170,7 @@ export default function Navbar() {
           {/*  */}
 
           <a
-            href="https://api.whatsapp.com/send?phone=5534992225485&text=Ol%C3%A1%2C%20meu%20nome%20%C3%A9%20Isaque%2C%20seja%20bem-vindo!"
+            href="https://wa.me/5534992225485?text=Oi%20Isaque,%20eu%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Amakha%20Paris."
             target="_blank"
             rel="noreferrer"
           >
