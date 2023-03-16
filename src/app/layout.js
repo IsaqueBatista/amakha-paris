@@ -2,7 +2,7 @@ import "../styles/globals.css";
 
 export const metadata = {
   title: 'Amakha Paris Site',
-  description: 'Projeto Amakha Paris',
+  description: 'Amakha Paris',
 }
 
 export default function RootLayout({ children }) {
