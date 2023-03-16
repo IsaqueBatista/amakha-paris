@@ -75,7 +75,7 @@ export default function Navbar() {
             </a>
 
             <Link
-              target={"_blank"}
+              target="_blank"
               href="https://escritorio.amakhaparis.com.br/join/102869"
             >
               <li
@@ -149,7 +149,7 @@ export default function Navbar() {
                 <li onClick={() => setNav(false)} className="py-4 text-sm">Contato</li>
               </a>
               <Link
-                target={"_blank"}
+                target="_blank"
                 href="https://escritorio.amakhaparis.com.br/join/102869"
               >
                 <li
