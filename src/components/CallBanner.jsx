@@ -12,7 +12,7 @@ const CallBanner = () => {
           href="https://escritorio.amakhaparis.com.br/join/102869"
         >
           <Image
-            className="border-solid border-2 border-black"
+            className="border-solid border-2 border-black hover:shadow-xl shadow-black"
             src={Banner}
             width="900"
             height="400"
