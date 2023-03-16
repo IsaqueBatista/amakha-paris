@@ -6,6 +6,7 @@ import Products from "../components/Products";
 import Catalog from "../components/Catalog";
 import Depositions from "../components/Depositions"
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Depositions />
       <CallBanner />
       <Contact />
+      <Footer />
     </div>
   );
 }
