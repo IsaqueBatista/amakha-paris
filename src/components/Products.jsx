@@ -11,7 +11,7 @@ import Infantil from "../../public/assets/Products/infantil.png";
 const Products = () => {
   return (
     <div>
-      <div id="products" className="pt-5 p-5 bg-gradient-to-t from-gray-400 to-gray-300">
+      <div id="products" className=" pt-10 p-5 bg-gradient-to-t from-gray-400 to-gray-300">
         <div className="text-center">
           <div className="pt-10 mb-2 bg-gradient-to-t from-[#23252B] via-gray-600 to-zinc-900 p-2 gap-2  rounded-md">
             <div>
