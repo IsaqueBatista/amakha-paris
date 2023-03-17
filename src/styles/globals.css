@@ -15,6 +15,11 @@
     scroll-behavior: smooth;
     font-family: 'Montserrat', 'Poppins', sans-serif;
   }
+
+  .custom-img {
+    background-image: url('https://amakhaparis.com.br/wp-content/uploads/2021/02/pack.png')
+  }
+
   @layer base {
     body {
       @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
