@@ -5,7 +5,7 @@ import CatalogImg from "../../public/assets/Catalog/catalogo.jpg";
 const Catalog = () => {
   return (
     <div id="catalogo">
-      <div className="flex justify-center px-1 pt-10 bg-gradient-to-t from-zinc-900 via-gray-600 to-zinc-900">
+      <div className="flex justify-center px-1 pt-10 bg-gradient-to-t from-orange-700 via-orange-500 to-slate-100">
         <Image
           className="rounded-sm border-solid border-2 border-black"
           src={CatalogImg}
@@ -15,7 +15,7 @@ const Catalog = () => {
         />
       </div>
 
-      <div className="p-2 text-white bg-gradient-to-t from-zinc-900 via-gray-600 to-zinc-900">
+      <div className="p-2 text-white bg-gradient-to-t from-[#384252] via-zinc-900 to-orange-700">
         <a
           href="../../public/assets/Catalogo_AMAKHA.pdf"
           download="Catalogo_AMAKHA.pdf"
