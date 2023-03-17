@@ -16,14 +16,14 @@ const Catalog = () => {
       </div>
 
       <div className="p-2 text-white bg-gradient-to-t from-[#384252] via-zinc-900 to-orange-700">
-        {/* <a
-          href="https://download1519.mediafire.com/hi7983xrkxwgUE-ecc9mIr5lRoO0XDAuxEMUGvwUwuJW-iuIhW_pa0QK1knXgFL_mkrlz7TyTvPJ_d5Dw116heuPeUNn61Q/hb4rmg833rkzbdi/Catalogo_AMAKHA.pdf"
-        > */}
         <a
+          href="https://download1519.mediafire.com/hi7983xrkxwgUE-ecc9mIr5lRoO0XDAuxEMUGvwUwuJW-iuIhW_pa0QK1knXgFL_mkrlz7TyTvPJ_d5Dw116heuPeUNn61Q/hb4rmg833rkzbdi/Catalogo_AMAKHA.pdf"
+        >
+        {/* <a
           href="../../public/assets/Catalogo_AMAKHA.pdf"
           download="Catalogo_AMAKHA.pdf"
           type="application/pdf"
-        >
+        > */}
           <p className="underline mb-5">
             Clique aqui e faça o download do catálogo.
           </p>
