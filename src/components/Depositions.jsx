@@ -6,8 +6,8 @@ const Depositions = () => {
       id="depositions"
       className="w-full p-2 flex items-center pb-10 bg-gradient-to-t from-zinc-800 via-gray-600 to-zinc-900"
     >
-      <div className="max-w-[1240px] mx-auto px-2">
-        <h4 className="text-center py-1  text-white my-10 mb-15 bg-gradient-to-t from-[#2A2E35] via-gray-600 to-zinc-800 border-solid border- border-y-0 border-x-indigo-500/5">
+      <div className="max-w-[1240px] mx-auto pt-8 px-2">
+        <h4 className="text-center py-1 text-white my-10  bg-gradient-to-t from-[#2A2E35] via-gray-600 to-zinc-800 border-solid border- border-y-0 border-x-indigo-500/5">
           Conquistas e <strong className="text-white">D</strong>epoimentos
         </h4>
         <div className="grid md:grid-cols-4 md:gap-1">
