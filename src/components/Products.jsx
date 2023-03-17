@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import Perfume from "../../public/assets/Products/perfumes.png";
+import Premium from "../../public/assets/Products/premium.jpg";
+
 import Capilar from "../../public/assets/Products/capilar.png";
 import Nutraceuticos from "../../public/assets/Products/nutraceuticos.png";
 import Hidratantes from "../../public/assets/Products/hidratantes.png";
@@ -30,6 +32,44 @@ const Products = () => {
               Casas de Fragrâncias Internacionais, o que garante qualidade e
               adequação às tendências do mercado mundial de perfumes.
             </p>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+
+      <div className=" px-5 pb-5 bg-gradient-to-t from-gray-400 to-gray-300">
+        <div className="text-center">
+          <div className="mb-2 bg-gradient-to-t from-[#23252B] via-gray-600 to-zinc-900 p-2 gap-2  rounded-md">
+            <div>
+              <h4 className="w-full pt-5 mb-2 bg-gradient-to-t from-[#1E1F24] via-gray-700 to-zinc-900 text-[#FC8A01]">
+                Perfumaria Premium
+              </h4>
+            </div>
+            <div className="mt-2 md:mb-5">
+              <div className="m-5 items-center flex justify-center">
+                <Image
+                  className="rounded-md"
+                  src={Premium}
+                  // width="450"
+                  // height="400"
+                  alt="Perfume logo"
+                />
+              </div>
+              <div className="flex justify-center mx-5">
+                {/* <div className="flex justify-center"> */}
+                  <iframe
+                    className="flex rounded-md"
+                    width="640"
+                    height="400"
+                    src="https://www.youtube.com/embed/HlVeW05P2Ws"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                {/* </div> */}
+              </div>
+            </div>
           </div>
         </div>
       </div>
