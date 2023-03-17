@@ -10,36 +10,10 @@ import Infantil from "../../public/assets/Products/infantil.png";
 
 const Products = () => {
   return (
-    <div id="products">
-      <div className="m-auto p-10 pb-5 flex justify-center bg-gradient-to-t from-gray-400 to-gray-300">
-        <div className="p-2 items-center md:flex gap-2 bg-gradient-to-t from-gray-400 via-gray-400 to-gray-200  rounded-md">
-          <div className="xl:ml-10">
-            <Image src={Perfume} width="950" height="650" alt="Perfume logo" />
-          </div>
-          <div className="mx-5 p-1 bg-gradient-to-t from-gray-600 via-gray-500 to-slate-300 rounded-md">
-            <h3 className="pt-10 pl-5 pr-20">Perfumaria</h3>
-            <p className="pr-10 pl-5 pt-10 flex text-start md:text-center text-white">
-              Amakha significa “perfume” no idioma africano Zulu.
-            </p>
-            <p className="py-4 pr-20 pl-5 text-white">
-              Trazemos em nosso nome a paixão pelo universo da perfumaria. Somos
-              sucesso pela diversidade de criações perfumísticas e a altíssima
-              concentração de óleos essenciais. São mais de 100 perfumes com até
-              24 horas de fixação.
-            </p>
-            <p className="pr-20 pl-5 pb-5 text-white">
-              Nosso portfólio foi desenvolvido em parceria com as principais
-              Casas de Fragrâncias Internacionais, o que garante qualidade e
-              adequação às tendências do mercado mundial de perfumes.
-            </p>
-          </div>
-        </div>
-      </div>
-      {/*  */}
-
-      <div className=" px-5 pb-5 bg-gradient-to-t from-gray-400 to-gray-300">
+    <div>
+      <div id="products" className="pt-5 p-5 bg-gradient-to-t from-gray-400 to-gray-300">
         <div className="text-center">
-          <div className="mb-2 bg-gradient-to-t from-[#23252B] via-gray-600 to-zinc-900 p-2 gap-2  rounded-md">
+          <div className="pt-10 mb-2 bg-gradient-to-t from-[#23252B] via-gray-600 to-zinc-900 p-2 gap-2  rounded-md">
             <div>
               <h4 className="w-full pt-5 mb-2 bg-gradient-to-t from-[#1E1F24] via-gray-700 to-zinc-900 text-[#FC8A01]">
                 Perfumaria Premium
@@ -50,6 +24,9 @@ const Products = () => {
                 <Image
                   className="rounded-md"
                   src={Premium}
+                   width="100%"
+                   height="100%"
+
                   // width="450"
                   // height="400"
                   alt="Perfume logo"
@@ -70,6 +47,31 @@ const Products = () => {
                 {/* </div> */}
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="m-auto p-10 pb-5 pt-2 flex justify-center bg-gradient-to-t from-gray-400 to-gray-300">
+        <div className="p-2 items-center md:flex gap-2 bg-gradient-to-t from-gray-400 via-gray-400 to-gray-200  rounded-md">
+          <div className="xl:ml-10">
+            <Image src={Perfume} width="950" height="650" alt="Perfume logo" />
+          </div>
+          <div className="mx-5 p-1 bg-gradient-to-t from-gray-600 via-gray-500 to-slate-300 rounded-md">
+            <h3 className="pt-10 pl-5 pr-20">Perfumaria</h3>
+            <p className="pr-10 pl-5 pt-10 flex text-start md:text-center text-white">
+              Amakha significa “perfume” no idioma africano Zulu.
+            </p>
+            <p className="py-4 pr-20 pl-5 text-white">
+              Trazemos em nosso nome a paixão pelo universo da perfumaria. Somos
+              sucesso pela diversidade de criações perfumísticas e a altíssima
+              concentração de óleos essenciais. São mais de 100 perfumes com até
+              24 horas de fixação.
+            </p>
+            <p className="pr-20 pl-5 pb-5 text-white">
+              Nosso portfólio foi desenvolvido em parceria com as principais
+              Casas de Fragrâncias Internacionais, o que garante qualidade e
+              adequação às tendências do mercado mundial de perfumes.
+            </p>
           </div>
         </div>
       </div>
