@@ -15,7 +15,7 @@ const Products = () => {
         <div className="text-center">
           <div className="pt-10 mb-2 bg-gradient-to-t from-[#23252B] via-gray-600 to-zinc-900 p-2 gap-2  rounded-md">
             <div>
-              <h4 className="w-full pt-5 mb-2 bg-gradient-to-t from-[#1E1F24] via-gray-700 to-zinc-900 text-[#FC8A01]">
+              <h4 className="font-serif uppercase w-full pt-5 mb-2  text-orange-500">
                 Perfumaria Premium
               </h4>
             </div>
@@ -57,17 +57,17 @@ const Products = () => {
             <Image src={Perfume} width="950" height="650" alt="Perfume logo" />
           </div>
           <div className="mx-5 p-1 bg-gradient-to-t from-gray-600 via-gray-500 to-slate-300 rounded-md">
-            <h3 className="pt-10 pl-5 pr-20">Perfumaria</h3>
-            <p className="pr-10 pl-5 pt-10 flex text-start md:text-center text-white">
+            <h3 className="pt-10 pl-5 pr-20 font-serif">Perfumaria</h3>
+            <p className="pr-10 pl-5 pt-10 flex tracking-wide text-start md:text-center text-white font-serif">
               Amakha significa “perfume” no idioma africano Zulu.
             </p>
-            <p className="py-4 pr-20 pl-5 text-white">
+            <p className="py-4 pr-20 pl-5 text-white font-serif tracking-wide">
               Trazemos em nosso nome a paixão pelo universo da perfumaria. Somos
               sucesso pela diversidade de criações perfumísticas e a altíssima
               concentração de óleos essenciais. São mais de 100 perfumes com até
               24 horas de fixação.
             </p>
-            <p className="pr-20 pl-5 pb-5 text-white">
+            <p className="pr-20 pl-5 pb-5 text-white font-serif tracking-wide">
               Nosso portfólio foi desenvolvido em parceria com as principais
               Casas de Fragrâncias Internacionais, o que garante qualidade e
               adequação às tendências do mercado mundial de perfumes.
@@ -78,9 +78,9 @@ const Products = () => {
 
       <div className="w-full pb-10 bg-gradient-to-t from-gray-100 via-gray-200 to-gray-400">
         <div className="max-w-[1240px] mx-auto px-2">
-          <h3 className="text-center">
-            Veja <strong className="text-slate-900">também</strong>
-          </h3>
+          <h4 className="text-center text-black font-serif uppercase bg-orange-400 rounded-md">
+            Veja <strong className="text-black">também</strong>
+          </h4>
           <div className="grid md:grid-cols-4 md:gap-1">
             <div className="flex items-center flex-col justify-center h-auto w-full bg-gradient-to-t from-gray-100 via-gray-200 to-gray-400 shadow-lg shadow-gray-400 rounded-md group mt-20">
               <Image
