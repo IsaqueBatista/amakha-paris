@@ -13,7 +13,7 @@
     max-width: 100vw;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    font-family: 'Montserrat', 'Poppins', sans-serif;
+    font-family: 'Montserrat', Poppins, sans-serif;
   }
 
   .custom-img {
