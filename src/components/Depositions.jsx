@@ -7,7 +7,7 @@ const Depositions = () => {
       className="w-full p-2 flex items-center pb-10 bg-gradient-to-t from-zinc-800 via-gray-600 to-zinc-900"
     >
       <div className="max-w-[1240px] mx-auto pt-8 px-2">
-        <h4 className="text-center font-serif uppercase py-1 text-white bg-[#d30000] rounded-sm my-10  ">
+        <h4 className="text-center font-serif uppercase py-1 px-1 text-white bg-[#d30000] rounded-sm my-10  ">
           Conquistas e Depoimentos
         </h4>
         <div className="grid md:grid-cols-4 md:gap-1">
