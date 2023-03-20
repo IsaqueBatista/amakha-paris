@@ -57,17 +57,17 @@ const Products = () => {
             <Image src={Perfume} width="950" height="650" alt="Perfume logo" />
           </div>
           <div className="mx-5 p-1 bg-gradient-to-t from-gray-600 via-gray-500 to-slate-300 rounded-md">
-            <h3 className="pt-10 pl-5 pr-20 font-serif">Perfumaria</h3>
-            <p className="pr-10 pl-5 pt-10 flex tracking-wide text-start md:text-center text-white font-serif">
+            <h3 className="pt-10 px-5 md:pr-15 font-serif md:text-start text-center">Perfumaria</h3>
+            <p className="md:pr-10 px-5 pt-10 tracking-wide md:text-start text-justify text-white font-serif">
               Amakha significa “perfume” no idioma africano Zulu.
             </p>
-            <p className="py-4 pr-20 pl-5 text-white font-serif tracking-wide">
+            <p className="py-4 md:pr-20 px-5 md:text-start text-justify text-white font-serif tracking-wide">
               Trazemos em nosso nome a paixão pelo universo da perfumaria. Somos
               sucesso pela diversidade de criações perfumísticas e a altíssima
               concentração de óleos essenciais. São mais de 100 perfumes com até
               24 horas de fixação.
             </p>
-            <p className="pr-20 pl-5 pb-5 text-white font-serif tracking-wide">
+            <p className="md:pr-20 px-5 pb-5 md:text-start text-justify text-white font-serif tracking-wide">
               Nosso portfólio foi desenvolvido em parceria com as principais
               Casas de Fragrâncias Internacionais, o que garante qualidade e
               adequação às tendências do mercado mundial de perfumes.
