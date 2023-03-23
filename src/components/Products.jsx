@@ -7,11 +7,15 @@ import Capilar from "../../public/assets/Products/capilar.png";
 import Nutraceuticos from "../../public/assets/Products/nutraceuticos.png";
 import Hidratantes from "../../public/assets/Products/hidratantes.png";
 import Infantil from "../../public/assets/Products/infantil.png";
+import { SiWhatsapp } from "react-icons/si";
 
 const Products = () => {
   return (
     <div>
-      <div id="products" className=" pt-10 p-5 bg-gradient-to-t from-gray-400 to-gray-300">
+      <div
+        id="products"
+        className=" pt-10 p-5 bg-gradient-to-t from-gray-400 to-gray-300"
+      >
         <div className="text-center">
           <div className="pt-10 mb-2 bg-gradient-to-t from-[#23252B] via-gray-600 to-zinc-900 p-2 gap-2  rounded-md">
             <div>
@@ -24,9 +28,8 @@ const Products = () => {
                 <Image
                   className="rounded-md"
                   src={Premium}
-                   width="100%"
-                   height="100%"
-
+                  width="100%"
+                  height="100%"
                   // width="450"
                   // height="400"
                   alt="Perfume logo"
@@ -34,16 +37,16 @@ const Products = () => {
               </div>
               <div className="flex justify-center mx-5">
                 {/* <div className="flex justify-center"> */}
-                  <iframe
-                    className="flex rounded-md"
-                    width="640"
-                    height="400"
-                    src="https://www.youtube.com/embed/HlVeW05P2Ws"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
-                  ></iframe>
+                <iframe
+                  className="flex rounded-md"
+                  width="640"
+                  height="400"
+                  src="https://www.youtube.com/embed/HlVeW05P2Ws"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
                 {/* </div> */}
               </div>
             </div>
@@ -57,7 +60,9 @@ const Products = () => {
             <Image src={Perfume} width="950" height="650" alt="Perfume logo" />
           </div>
           <div className="mx-5 p-1 bg-gradient-to-t from-gray-600 via-gray-500 to-slate-300 rounded-md">
-            <h3 className="pt-10 px-5 md:pr-15 font-serif md:text-start text-center">Perfumaria</h3>
+            <h3 className="pt-10 px-5 md:pr-15 font-serif md:text-start text-center">
+              Perfumaria
+            </h3>
             <p className="md:pr-10 px-5 pt-10 tracking-wide md:text-start text-justify text-white font-serif">
               Amakha significa “perfume” no idioma africano Zulu.
             </p>
@@ -73,6 +78,32 @@ const Products = () => {
               adequação às tendências do mercado mundial de perfumes.
             </p>
           </div>
+        </div>
+      </div>
+
+      <div className="pb-5 flex items-center justify-center gap-2 bg-gray-400">
+        <div className="gap-2 mx-auto p-2 items-center justify-center md:flex md:gap-4">
+        <a
+              href="https://wa.me/5534992225485?text=Oi%20Isaque,%20eu%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20para%20revender%20Amakha%20Paris."
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="text-white hover:bg-[#19e065] bg-[#0bb34b] shadow-md shadow-gray-800 rounded-2xl py-2 flex items-center gap-1 px-4">
+                <SiWhatsapp className="text-xl" />
+                Quero revender!
+              </button>
+            </a>
+            <br />
+            <a
+            href="https://wa.me/5534992225485?text=Oi%20Isaque,%20eu%20gostaria%20de%20comprar%20todos%20os%20produtos%20da%20Amakha%20Paris%20com%2050%%20de%20desconto."
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="text-white hover:bg-[#19e065] bg-[#0bb34b] shadow-md shadow-gray-800 rounded-2xl py-2 flex items-center gap-1 px-4">
+              <SiWhatsapp className="text-xl" />
+              Quero comprar com 50% de desconto!
+            </button>
+            </a>
         </div>
       </div>
 
