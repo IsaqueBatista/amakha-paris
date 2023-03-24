@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 
 export const metadata = {
-  title: 'Amakha Paris Site',
+  title: 'Amakha Paris Cadastro',
   description: 'Amakha Paris',
 }
 
