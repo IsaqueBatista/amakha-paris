@@ -25,7 +25,7 @@ const Products = () => {
               </h4>
             </div>
             <div className="mt-2 md:mb-5">
-              <div className="m-5 items-center flex justify-center">
+              {/* <div className="m-5 items-center flex justify-center">
                 <Image
                   className="rounded-md"
                   src={Premium}
@@ -35,8 +35,8 @@ const Products = () => {
                   // height="400"
                   alt="Perfume logo"
                 />
-              </div>
-              <div className="flex justify-center mx-5">
+              </div> */}
+              <div className="flex justify-center mx-5 mt-5">
                 {/* <div className="flex justify-center"> */}
                 <iframe
                   className="flex rounded-md"
