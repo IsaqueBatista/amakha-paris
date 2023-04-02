@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Perfume from "../../public/assets/Products/perfumes.png";
 import Premium from "../../public/assets/Products/premium.jpg";
+import Carousel from "./Carousel/Carousel";
 
 import Capilar from "../../public/assets/Products/capilar.png";
 import Nutraceuticos from "../../public/assets/Products/nutraceuticos.png";
@@ -107,12 +108,15 @@ const Products = () => {
         </div>
       </div>
 
-      <div className="w-full pb-10 bg-gradient-to-t from-gray-100 via-gray-200 to-gray-400">
+      <div className="w-full pb-10 bg-gradient-to-t from-gray-100 via-gray-200 to-gray-400 pt-7">
         <div className="max-w-[1240px] mx-auto px-2">
-          <h4 className="text-center text-black font-serif uppercase bg-orange-400 rounded-md">
+          <h4 className="text-center text-black font-serif uppercase bg-orange-400 rounded-md mb-10">
             Veja <strong className="text-black">também</strong>
           </h4>
-          <div className="grid md:grid-cols-4 md:gap-1">
+
+          <Carousel />
+
+          {/* <div className="grid md:grid-cols-4 md:gap-1">
             <div className="flex items-center flex-col justify-center h-auto w-full bg-gradient-to-t from-gray-100 via-gray-200 to-gray-400 shadow-lg shadow-gray-400 rounded-md group mt-20">
               <Image
                 src={Capilar}
@@ -165,7 +169,7 @@ const Products = () => {
                 Amakha Paris
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
