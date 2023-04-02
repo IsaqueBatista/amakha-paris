@@ -8,8 +8,9 @@ const About = () => {
       id="about"
       className="flex items-center justify-center text-center h-auto bg-fixed bg-center custom-img p-10"
     >
-      <div className="absolute bg-black/10 z-[2] p-10" />
-      <div className="p-5 bg-black/90 text-white z-[2] mt-[+8rem] font-serif">
+      {/* <div className="absolute bg-black/10 z-[2] p-10" /> */}
+
+      <div className="p-5 m-5 bg-black/90 text-white  z-[2] mt-[+8rem] font-serif">
         <h1 className="text-4xl uppercase">Quem somos</h1>
         <p className="py-5 px-3 md:text-justify text-center text-lg font-serif md:px-20">
           A Amakha Paris é uma das maiores marcas de beleza e bem-estar do
@@ -18,7 +19,7 @@ const About = () => {
           itens de alta qualidade em seu portfólio.
         </p>
 
-         <div className="flex md:flex-row-reverse flex-col md:pr-5">
+        <div className="flex md:flex-row-reverse flex-col md:pr-5">
           <div className="flex items-center gap-10 justify-center">
             <Image src={Pa} width="200" height="180" alt="/" />
           </div>
@@ -27,7 +28,7 @@ const About = () => {
             Em todo o Brasil, você encontra Pontos de Apoio para adquirir os
             produtos. E você também pode ser o empreendedor de um deles.
           </p>
-        </div> 
+        </div>
       </div>
     </div>
   );

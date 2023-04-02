@@ -17,7 +17,8 @@
   }
 
   .custom-img {
-    background-image: url('https://amakhaparis.com.br/wp-content/uploads/2021/02/pack.png')
+    background-image: url('https://amakhaparis.com.br/wp-content/uploads/2021/02/pack.png');
+    min-height: 100vh;
   }
 
   @layer base {
