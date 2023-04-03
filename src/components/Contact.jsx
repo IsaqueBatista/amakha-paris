@@ -14,7 +14,7 @@ const Contact = () => {
         </div>
 
         <div>
-          <p className="mb-2">
+          <p className="mb-2 tracking-wide">
             <strong>Me siga nas Redes Sociais:</strong>
           </p>
         </div>
@@ -76,7 +76,7 @@ const Contact = () => {
 
         <div className="text-center items-center">
           <p className="my-1 flex justify-center items-center gap-1"><FaWhatsapp />(34) 99222-5485</p>
-          <p className="flex justify-center items-center gap-1"><AiOutlineMail />isaquebatista1716@gmail.com</p>
+          <p className="flex justify-center items-center gap-1 tracking-wide "><AiOutlineMail />isaquebatista1716@gmail.com</p>
         </div>
       </div>
     </div>
