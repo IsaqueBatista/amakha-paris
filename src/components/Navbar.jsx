@@ -44,7 +44,7 @@ export default function Navbar() {
           />
         </a>
 
-        <div className="flex mr-3 ml-2">
+        <nav className="flex mr-3 ml-2">
           <ul className="hidden md:flex gap-1 text-[#ffffff] items-center">
             <a href="#about">
               <li className="mr-3 text-sm uppercase hover:border-b">Sobre</li>
@@ -92,7 +92,7 @@ export default function Navbar() {
           >
             <AiOutlineMenu size={20} />
           </div>
-        </div>
+        </nav>
       </div>
 
       <div
