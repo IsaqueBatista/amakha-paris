@@ -38,7 +38,7 @@ const VideoAbout = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="tracking-wide mx-auto text-white bg-[#FFAC00] shadow-md shadow-gray-800 rounded-2xl py-2 flex items-center gap-1 px-4">
+            <button className="tracking-wide mx-auto text-white bg-[#FFAC00] hover:bg-[#bf6c07] shadow-md shadow-gray-800 rounded-2xl py-2 flex items-center gap-1 px-4">
               <SiWhatsapp className="text-xl" />
               Quero comprar com 50% de desconto!
             </button>
