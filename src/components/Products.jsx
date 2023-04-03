@@ -1,13 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import Perfume from "../../public/assets/Products/perfumes.png";
-import Premium from "../../public/assets/Products/premium.jpg";
 import Carousel from "./Carousel/Carousel";
 
-import Capilar from "../../public/assets/Products/capilar.png";
-import Nutraceuticos from "../../public/assets/Products/nutraceuticos.png";
-import Hidratantes from "../../public/assets/Products/hidratantes.png";
-import Infantil from "../../public/assets/Products/infantil.png";
 import { SiWhatsapp } from "react-icons/si";
 
 const Products = () => {
@@ -89,7 +84,7 @@ const Products = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="text-white hover:bg-[#19e065] bg-[#0bb34b] shadow-md shadow-gray-800 rounded-2xl py-2 flex items-center gap-1 px-4">
+              <button className="tracking-wide mx-auto text-white hover:bg-[#19e065] bg-[#0bb34b] shadow-md shadow-gray-800 rounded-2xl py-2 flex items-center gap-1 px-4">
                 <SiWhatsapp className="text-xl" />
                 Quero revender!
               </button>
@@ -100,7 +95,7 @@ const Products = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="text-white hover:bg-[#19e065] bg-[#0bb34b] shadow-md shadow-gray-800 rounded-2xl py-2 flex items-center gap-1 px-4">
+            <button className="mx-auto tracking-wide text-white hover:bg-[#19e065] bg-[#0bb34b] shadow-md shadow-gray-800 rounded-2xl py-2 flex items-center gap-1 px-4">
               <SiWhatsapp className="text-xl" />
               Quero comprar com 50% de desconto!
             </button>
@@ -108,6 +103,9 @@ const Products = () => {
         </div>
       </div>
 
+      <div className="flex items-center justify-center custom-img p-10">
+      </div>
+      
       <div className="w-full pb-10 bg-gradient-to-t from-gray-100 via-gray-200 to-gray-400 pt-7">
         <div className="max-w-[1240px] mx-auto px-2">
           <h4 className="text-center text-black font-serif uppercase bg-orange-400 rounded-md mb-10">

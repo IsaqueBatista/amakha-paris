@@ -18,7 +18,12 @@
 
   .custom-img {
     background-image: url('https://amakhaparis.com.br/wp-content/uploads/2021/02/pack.png');
-    min-height: 100vh;
+    min-height: 80vh;
+  }
+
+  .custom-img2 {
+    background-image: url('https://www.sejaamakha.com.br/assets/foto-fundo-banner-amakha-sessao-alt.jpg');
+    min-height: 80vh;
   }
 
   @layer base {
