@@ -15,7 +15,7 @@ const Depositions = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="hover:bg-[#19e065] text-white bg-[#0bb34b] shadow-md shadow-zinc-800 rounded-2xl py-2 flex items-center gap-1 px-4">
+              <button className="tracking-wide mx-auto hover:bg-[#19e065] text-base text-white bg-[#0bb34b] shadow-md shadow-zinc-800 rounded-xl py-2 flex items-center gap-1 px-4">
                 <SiWhatsapp className="text-xl" />
                 Quero revender!
               </button>
@@ -26,7 +26,7 @@ const Depositions = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="text-white hover:bg-[#19e065] bg-[#0bb34b] shadow-md shadow-zinc-800 rounded-2xl py-2 flex items-center gap-1 px-4">
+              <button className="tracking-wide mx-auto text-white hover:bg-[#19e065] bg-[#0bb34b] shadow-md shadow-zinc-800 rounded-xl py-2 flex items-center gap-1 px-4">
                 <SiWhatsapp className="text-xl" />
                 Quero comprar com 50% de desconto!
               </button>
