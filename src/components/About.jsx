@@ -6,10 +6,8 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex items-center justify-center text-center h-auto bg-fixed bg-center custom-img p-10"
+      className="flex items-center justify-center text-center h-auto bg-fixed bg-center bg-gray-300 p-10"
     >
-      {/* <div className="absolute bg-black/10 z-[2] p-10" /> */}
-
       <div className="p-5 m-5 bg-black/90 text-white  z-[2] mt-[+8rem] font-serif">
         <h1 className="text-4xl uppercase">Quem somos</h1>
         <p className="py-5 px-3 md:text-justify text-center text-lg font-serif md:px-20">
