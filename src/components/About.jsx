@@ -4,7 +4,7 @@ import Pa from "../../public/assets/About/logo-pa.png";
 
 const About = () => {
   return (
-    <div
+    <section
       id="about"
       className="flex items-center justify-center text-center h-auto bg-fixed bg-center bg-gray-300 p-10"
     >
@@ -28,7 +28,7 @@ const About = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -20,7 +20,7 @@ const Carousel = () => {
   ];
 
   return (
-    <div className="flex items-center justify-center mx-auto">
+    <aside className="flex items-center justify-center mx-auto">
       <Carousell
         itemsToScroll={1}
         itemsToShow={1}
@@ -116,7 +116,7 @@ const Carousel = () => {
           </div>
         </itemsToScroll>
       </Carousell>
-    </div>
+    </aside>
   );
 };
 

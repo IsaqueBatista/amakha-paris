@@ -4,7 +4,7 @@ import CatalogImg from "../../public/assets/Catalog/catalogo.jpg";
 
 const Catalog = () => {
   return (
-    <div id="catalogo">
+    <section id="catalogo">
       <div className="flex justify-center px-1 pt-10 bg-gradient-to-t from-gray-500 via-orange-500 to-slate-100">
         <Image
           className="rounded-sm border-solid border-2 border-black"
@@ -34,7 +34,7 @@ const Catalog = () => {
           </button>
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 

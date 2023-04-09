@@ -3,7 +3,7 @@ import { SiWhatsapp } from "react-icons/si";
 
 const VideoAbout = () => {
   return (
-    <div className="w-full text-center">
+    <section className="w-full text-center">
       <div className="w-full h-full p-2 px-10 custom-img2 items-center">
         <div>
           <div className="flex justify-center mt-5 mb-10 ">
@@ -46,7 +46,7 @@ const VideoAbout = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

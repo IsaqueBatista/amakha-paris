@@ -5,7 +5,7 @@ import Banner from "../../public/assets/Banner/banner-chamada.jpg";
 
 const CallBanner = () => {
   return (
-    <div className="py-3 m-auto flex justify-center bg-gradient-to-t from-[#f3ac3b] to-[#f7cf8f]">
+    <section className="py-3 m-auto flex justify-center bg-gradient-to-t from-[#f3ac3b] to-[#f7cf8f]">
       <div className="m-auto flex justify-center pb-5">
         <Link
           target={"_blank"}
@@ -20,7 +20,7 @@ const CallBanner = () => {
           />
         </Link>
       </div>
-    </div>
+    </section>
   );
 };
 

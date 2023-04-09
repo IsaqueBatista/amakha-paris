@@ -11,18 +11,24 @@ import About from "../components/About";
 
 export default function Home() {
   return (
-    <div>
-      <Navbar />
-      <About />
-      <VideoAbout />
-      <CallBanner />
-      <Products />
-      <Catalog />
-      <CallBanner />
-      <Depositions />
-      <CallBanner />
-      <Contact />
-      <Footer />
-    </div>
+    <>
+      <header>
+        <Navbar />
+      </header>
+      <main>
+        <About />
+        <VideoAbout />
+        <CallBanner />
+        <Products />
+        <Catalog />
+        <CallBanner />
+        <Depositions />
+        <CallBanner />
+      </main>
+      <footer>
+        <Contact />
+        <Footer />
+      </footer>
+    </>
   );
 }

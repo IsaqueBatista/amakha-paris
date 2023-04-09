@@ -3,7 +3,7 @@ import { SiWhatsapp } from "react-icons/si";
 
 const Depositions = () => {
   return (
-    <div
+    <section
       id="depositions"
       className="w-full p-2 flex items-center pb-10 bg-gradient-to-t from-zinc-800 via-gray-600 to-zinc-900"
     >
@@ -36,7 +36,7 @@ const Depositions = () => {
         <h4 className="text-center font-serif uppercase py-1 px-1 text-white bg-[#d30000] rounded-sm my-10  ">
           Conquistas e Depoimentos
         </h4>
-        <div className="grid md:grid-cols-4 md:gap-1">
+        <aside className="grid md:grid-cols-4 md:gap-1">
           <div className="flex items-center flex-col justify-center h-[240px] w-full bg-gradient-to-t from-gray-100 via-gray-200 to-gray-400 shadow-lg shadow-gray-400 rounded-md group mt-5">
             <iframe
               className="p-0.5 rounded-md"
@@ -88,9 +88,9 @@ const Depositions = () => {
               allowfullscreen
             ></iframe>
           </div>
-        </div>
+        </aside>
       </div>
-    </div>
+    </section>
   );
 };
 

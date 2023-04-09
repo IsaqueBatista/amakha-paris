@@ -7,8 +7,8 @@ import { SiWhatsapp } from "react-icons/si";
 
 const Products = () => {
   return (
-    <div>
-      <div
+    <article>
+      <section
         id="products"
         className=" pt-10 p-5 bg-gradient-to-t from-gray-400 to-gray-300"
       >
@@ -48,9 +48,9 @@ const Products = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="m-auto p-10 pb-5 pt-2 flex justify-center bg-gradient-to-t from-gray-400 to-gray-300">
+      <section className="m-auto p-10 pb-5 pt-2 flex justify-center bg-gradient-to-t from-gray-400 to-gray-300">
         <div className="p-2 items-center md:flex gap-2 bg-gradient-to-t from-gray-400 via-gray-400 to-gray-200  rounded-md">
           <div className="xl:ml-10">
             <Image src={Perfume} width="950" height="650" alt="Perfume logo" />
@@ -75,9 +75,9 @@ const Products = () => {
             </p>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="pb-5 flex items-center justify-center gap-2 bg-gray-400">
+      <section className="pb-5 flex items-center justify-center gap-2 bg-gray-400">
         <div className="gap-2 mx-auto p-2 items-center justify-center md:flex md:gap-4">
         <a
               href="https://wa.me/5534992225485?text=Oi%20Isaque,%20eu%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20para%20revender%20Amakha%20Paris."
@@ -101,12 +101,12 @@ const Products = () => {
             </button>
             </a>
         </div>
-      </div>
+      </section>
 
       <div className="flex items-center justify-center custom-img p-10">
       </div>
       
-      <div className="w-full pb-10 bg-gradient-to-t from-gray-100 via-gray-200 to-gray-400 pt-7">
+      <section className="w-full pb-10 bg-gradient-to-t from-gray-100 via-gray-200 to-gray-400 pt-7">
         <div className="max-w-[1240px] mx-auto px-2">
           <h4 className="text-center text-black font-serif uppercase bg-orange-400 rounded-md mb-10">
             Veja <strong className="text-black">também</strong>
@@ -169,8 +169,8 @@ const Products = () => {
             </div>
           </div> */}
         </div>
-      </div>
-    </div>
+      </section>
+    </article>
   );
 };
 

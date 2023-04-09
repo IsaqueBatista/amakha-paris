@@ -34,15 +34,17 @@ export default function Navbar() {
       }
     >
       <div className="flex justify-between items-center w-full h-full p-2 2xl:px-16 bg-black">
-        <a href="#about">
-          <Image
-            className="p-1"
-            src={NavLogo}
-            alt="Logo Amakha Paris"
-            width="130"
-            height="80"
-          />
-        </a>
+        <header>
+          <a href="#about">
+            <Image
+              className="p-1"
+              src={NavLogo}
+              alt="Logo Amakha Paris"
+              width="130"
+              height="80"
+            />
+          </a>
+        </header>
 
         <nav className="flex mr-3 ml-2">
           <ul className="hidden md:flex gap-1 text-[#ffffff] items-center">
@@ -86,12 +88,12 @@ export default function Navbar() {
               </li>
             </Link>
           </ul>
-          <div
+          <nav
             onClick={handleNav}
             className="md:hidden text-white cursor-pointer"
           >
             <AiOutlineMenu size={20} />
-          </div>
+          </nav>
         </nav>
       </div>
 
@@ -100,14 +102,14 @@ export default function Navbar() {
           nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
         }
       >
-        <div
+        <section
           className={
             nav
               ? "md:hidden fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-slate-900 p-10 ease-in duration-500"
               : "fixed left-[-400%] h-screen top-0 p-10 ease-in duration-700"
           }
         >
-          <div>
+          <header>
             <div className="flex w-full items-center justify-between">
               <a href="#about">
                 <Image
@@ -117,36 +119,46 @@ export default function Navbar() {
                   alt="Logo Amakha Paris"
                 />
               </a>
-              <div
+              <nav
                 onClick={handleNav}
                 className="text-white cursor-pointer p-2"
               >
                 <AiOutlineClose />
-              </div>
+              </nav>
             </div>
             <div className="border-b border-t border-gray-800 text-center my-4 mt-8 flex justify-center text-white">
               <p className="w-[85%] md:w-[90%]">
                 Amakha Paris, lugar de gente feliz!
               </p>
             </div>
-          </div>
+          </header>
 
-          <div className="py-4 flex flex-col border-b border-gray-800 my-4 mt-5 text-white">
+          <nav className="py-4 flex flex-col border-b border-gray-800 my-4 mt-5 text-white">
             <ul className="uppercase text-white">
               <a href="#about">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">Sobre</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Sobre
+                </li>
               </a>
               <a href="#products">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">Produtos</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Produtos
+                </li>
               </a>
               <a href="#catalogo">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">catálogo</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  catálogo
+                </li>
               </a>
               <a href="#depositions">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">Depoimentos</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Depoimentos
+                </li>
               </a>
               <a href="#contact">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">Contato</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Contato
+                </li>
               </a>
               <Link
                 target="_blank"
@@ -160,68 +172,68 @@ export default function Navbar() {
                 </li>
               </Link>
             </ul>
-          </div>
+          </nav>
 
           <div className="text-zinc-200 flex justify-center">
             <p className="mb-4">Entre em contato:</p>
           </div>
 
-          <div className="flex items-center justify-center max-w-[330px] m-auto py-4 pt-1 gap-3">
-          {/*  */}
+          <nav className="flex items-center justify-center max-w-[330px] m-auto py-4 pt-1 gap-3">
+            {/*  */}
 
-          <a
-            href="https://wa.me/5534992225485?text=Oi%20Isaque,%20eu%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Amakha%20Paris."
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div
-              className="bg-white rounded-full shadow-md shadow-gray-600 p-3 cursor-pointer 
-                hover:scale-105 ease-in duration-300"
+            <a
+              href="https://wa.me/5534992225485?text=Oi%20Isaque,%20eu%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Amakha%20Paris."
+              target="_blank"
+              rel="noreferrer"
             >
-              <FaWhatsapp />
-            </div>
-          </a>
+              <div
+                className="bg-white rounded-full shadow-md shadow-gray-600 p-3 cursor-pointer 
+                hover:scale-105 ease-in duration-300"
+              >
+                <FaWhatsapp />
+              </div>
+            </a>
 
-          <a
-            href="https://www.instagram.com/amakha_paris_amakha/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div
-              className="bg-white rounded-full shadow-md shadow-gray-600 p-3 cursor-pointer 
-                hover:scale-105 ease-in duration-300"
+            <a
+              href="https://www.instagram.com/amakha_paris_amakha/"
+              target="_blank"
+              rel="noreferrer"
             >
-              <FaInstagram />
-            </div>
-          </a>
+              <div
+                className="bg-white rounded-full shadow-md shadow-gray-600 p-3 cursor-pointer 
+                hover:scale-105 ease-in duration-300"
+              >
+                <FaInstagram />
+              </div>
+            </a>
 
-          <a
-            href="https://www.linkedin.com/in/isaque-batista-oliveira-50432024a/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div
-              className="bg-white rounded-full shadow-md shadow-gray-600 p-3 cursor-pointer 
-                hover:scale-105 ease-in duration-300"
+            <a
+              href="https://www.linkedin.com/in/isaque-batista-oliveira-50432024a/"
+              target="_blank"
+              rel="noreferrer"
             >
-              <FaLinkedinIn />
-            </div>
-          </a>
+              <div
+                className="bg-white rounded-full shadow-md shadow-gray-600 p-3 cursor-pointer 
+                hover:scale-105 ease-in duration-300"
+              >
+                <FaLinkedinIn />
+              </div>
+            </a>
 
-          <a
-            href="mailto:isaquebatista1716@gmail.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div
-              className="bg-white rounded-full shadow-md shadow-gray-600 p-3 cursor-pointer 
-                hover:scale-105 ease-in duration-300"
+            <a
+              href="mailto:isaquebatista1716@gmail.com"
+              target="_blank"
+              rel="noreferrer"
             >
-              <AiOutlineMail />
-            </div>
-          </a>
-        </div>
-        </div>
+              <div
+                className="bg-white rounded-full shadow-md shadow-gray-600 p-3 cursor-pointer 
+                hover:scale-105 ease-in duration-300"
+              >
+                <AiOutlineMail />
+              </div>
+            </a>
+          </nav>
+        </section>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ import { FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="w-full my-10 flex items-center bg-gradient-to-t from-gray-100 via-gray-200 to-gray-100">
+    <section className="w-full my-10 flex items-center bg-gradient-to-t from-gray-100 via-gray-200 to-gray-100">
       <div id="contact" className="flex flex-col items-center w-full">
         <Image src={Logo2} width="auto" height="auto" alt="Logo Amakha Paris" />
         <div className="my-5 uppercase tracking-tight">
@@ -20,7 +20,7 @@ const Contact = () => {
         </div>
 
         {/*  */}
-        <div className="flex items-center justify-between max-w-[330px] m-auto py-4 pt-1 gap-3">
+        <nav className="flex items-center justify-between max-w-[330px] m-auto py-4 pt-1 gap-3">
           <a
             href="https://wa.me/5534992225485?text=Oi%20Isaque,%20eu%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Amakha%20Paris."
             target="_blank"
@@ -72,14 +72,14 @@ const Contact = () => {
               <AiOutlineMail />
             </div>
           </a>
-        </div>
+        </nav>
 
         <div className="text-center items-center">
           <p className="my-1 flex justify-center items-center gap-1"><FaWhatsapp />(34) 99222-5485</p>
           <p className="flex justify-center items-center gap-1 tracking-wide "><AiOutlineMail />isaquebatista1716@gmail.com</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
