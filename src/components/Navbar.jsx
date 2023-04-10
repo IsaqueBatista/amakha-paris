@@ -78,7 +78,7 @@ export default function Navbar() {
 
             <Link
               target="_blank"
-              href="https://escritorio.amakhaparis.com.br/join/102869"
+              href="https://escritorio.amakhaparis.com.br/join/1865981"
             >
               <li
                 className="ml-3  p-1 px-3 text-sm uppercase rounded-sm
@@ -162,7 +162,7 @@ export default function Navbar() {
               </a>
               <Link
                 target="_blank"
-                href="https://escritorio.amakhaparis.com.br/join/102869"
+                href="https://escritorio.amakhaparis.com.br/join/1865981"
               >
                 <li
                   className="ml-2 mr-2 mt-10 p-1 text-sm text-center uppercase rounded-sm
